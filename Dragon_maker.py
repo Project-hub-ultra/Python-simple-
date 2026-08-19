@@ -1,0 +1,15 @@
+dragon_name = input("What is your dragons name? ")
+dragon_age = input("What is your dragons age? ")
+dragon_color1 = input("What is your dragons first color(choose three)? ")
+dragon_color2 = input("What is your dragons seccond color? ")
+dragon_color3 = input("What is your dragons third color? ")
+dragon_colors = ["colors", dragon_color1, dragon_color2, dragon_color3]
+eye_detail = input("Describe the dragon's eyes: ")
+tail_detail = input("Describe the dragon's tail: ")
+scale_detail = input("Describe the dragon's scales: ")
+dragon_traits = {"eyes": eye_detail, "tail": tail_detail, "scales": scale_detail}
+print ("please make a dragon from the following")
+print (dragon_name)
+print (dragon_age)
+print (dragon_colors)
+print (dragon_traits)
